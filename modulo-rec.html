@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>modulo</title>
+        <link href="./style.css" rel="stylesheet">
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Raleway:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    </head>
+    <body>
+
+        <div class="navbar">
+            <a href="./home-dat.html"><button><span class="home material-symbols-outlined" title="vai alla home">
+                home
+            </span></button></a>
+
+            <a href="./ruolo.html"><button><span class="material-symbols-outlined go-back" title="pagina precedente">
+                arrow_back_ios
+            </span></button></a>
+        </div>
+
+        <div class="info">
+            <p>Carola Gallo (lavoratore)</p>
+            <p>Mario Rossi, Amazon (datore)</p>
+        </div>
+        
+        <h2>raccontaci di <br><span>Carola Gallo</span>, <br>cameriera</h2>
+
+    <form>
+        <div class="range">
+            <div class="title">
+                <h3>SULLA PERSONA</h3>
+                <!-- onClick => alert('title') -->
+                <span class="material-symbols-outlined" title="esprimi il tuo parere sull'approccio al lavoro di questo lavoratore">
+                info
+                </span> 
+            </div>
+            <div class="affidability a">
+                <label for="affidability">Affidabilità</label>
+                <p>0</p>
+                <input type="range" step="10" id="affidability n">
+                <p>10</p>
+                
+            </div>
+            <div class="seriety a">
+                <label for="seriety">Serietà</label>
+                <p>0</p>
+                <input type="range" step="10" id="seriety n">
+                <p>10</p>
+            </div>
+
+            <div class="dovere a">
+                <label for="dovere">Senso del dovere</label>
+                <p>0</p>
+                <input type="range" step="10" id="dovere n">
+                <p>10</p>
+            </div>
+
+            <div class="punct a">
+                <label for="punct">Puntualità</label>
+                <p>0</p>
+                <input type="range" step="10" id="punct n">
+                <p>10</p>
+            </div>
+
+            <div class="product a">
+                <label for="product">Produttività</label>
+                <p>0</p>
+                <input type="range" step="10" id="product n">
+                <p>10</p>
+            </div>
+
+            <div class="creative a">
+                <label for="creative">Creatività</label>
+                <p>0</p>
+                <input type="range" step="10" id="creative n">
+                <p>10</p>
+            </div>
+
+            <div class="qualità a">
+                <label for="qualità">Qualità del lavoro svolto</label>
+                <p>0</p>
+                <input type="range" step="10" id="qualità n">
+                <p>10</p>
+            </div>
+
+            <div class="coop a">
+                <label for="coop">Cooperazione con i colleghi</label>
+                <p>0</p>
+                <input type="range" step="10" id="coop n">
+                <p>10</p>
+            </div>
+
+            <div class="determ a">
+                <label for="determ">Determinazione</label>
+                <p>0</p>
+                <input type="range" step="10" id="determ n">
+                <p>10</p>
+            </div>
+        </div>
+
+        
+
+        <div class="check">
+            <div class="title">
+                <h3>SOFT SKILLS</h3>
+                <!-- onClick => alert('title') -->
+                <span class="material-symbols-outlined" title="Seleziona le soft skills che caratterizzano questo lavoratore.">
+                info
+                </span> 
+            </div>
+            <div class="personali">
+                <h5>COMPETENZE PERSONALI</h5>
+                <div class="skill">
+                    <input type="checkbox" id="resilienza">
+                    <label for="resilienza">Resilienza</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="respons">
+                    <label for="respons">Responsabilità</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="dedizione">
+                    <label for="dedizione">Dedizione</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="motivazione">
+                    <label for="motivazione">Motivazione</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="curiosità">
+                    <label for="curiosità">Curiosità</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="autodisciplina">
+                    <label for="autodisciplina">Autodisciplina</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="autoriflessione">
+                    <label for="autoriflessione">Autoriflessione</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="fiducia">
+                    <label for="fiducia">Fiducia in se stesso/a</label>
+                </div>
+            </div>
+
+            <div class="sociali">
+                <h5>COMPETENZE SOCIALI</h5>
+                <div class="skill">
+                    <input type="checkbox" id="empatia">
+                    <label for="empatia">Sensibilità/empatia</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="integrazione">
+                    <label for="integrazione">Capacità di integrazione</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="comunicazione">
+                    <label for="comunicazione">Capacità comunicative</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="critico">
+                    <label for="critico">Spirito critico</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="umana">
+                    <label for="umana">Conoscenza della natura umana</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="team">
+                    <label for="team">Capacità di lavoro in team</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="colleghi">
+                    <label for="colleghi">Capacità di rapportarsi efficacemente con i colleghi</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="interazione">
+                    <label for="interazione">Capacità di interazione</label>
+                </div>
+            </div>
+
+            <div class="metodo">
+                <h5>COMPETENZE METODOLOGICHE</h5>
+                <div class="skill">
+                    <input type="checkbox" id="analisi">
+                    <label for="analisi">Capacità di analisi</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="organiz">
+                    <label for="organiz">Capacità organizzative</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="presentaz">
+                    <label for="presentaz">Capacità di presentazione</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="solve">
+                    <label for="solve">Capacità di Problem Solving</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="stress">
+                    <label for="stress">Resistenza allo stress</label>
+                </div>
+                <div class="skill">
+                    <input type="checkbox" id="media">
+                    <label for="media">Gestione dei nuovi media</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="comm">
+            <h3>COMMENTO DEL DATORE DI LAVORO <span>(facoltativo)</span></h3>
+            
+            <input type="text" id="commInput" maxlength="900" placeholder="lascia un commento personale...">
+        </div>
+
+        
+        <input type="submit" id="sub" value="Salva">
+    </form>
+    
+    </body>
+    
+</html>
